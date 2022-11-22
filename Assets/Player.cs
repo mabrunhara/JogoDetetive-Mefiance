@@ -10,12 +10,12 @@ using UnityEngine;
     Vector3 strafe;
     Vector3 vertical;
 
-    float forwardSpeed = 6f;
-    float strafeSpeed = 6f;
+    float forwardSpeed = 3;
+    float strafeSpeed = 3f;
 
     float gravity;
     float jumpSpeed;
-    float maxJumpHeight = 2f;
+    float maxJumpHeight = 1f;
     float timeToMaxHeight = 0.5f;
 
     void Start() {

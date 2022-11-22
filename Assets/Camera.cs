@@ -19,8 +19,8 @@ public class Camera : MonoBehaviour {
     float smoothRotx = 0;
     float smoothRoty = 0;
 
-    float smoothCoefx = 0.05f;
-    float smoothCoefy = 0.05f;
+    float smoothCoefx = 0.1f;
+    float smoothCoefy = 0.1f;
 
     void Start() {
 
