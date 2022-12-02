@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Cenas/menucerto.unity
+    guid: 8f9c092e13d7cde47aeae49942e97b0b
+  - enabled: 1
+    path: Assets/Cenas/quarto.unity
+    guid: 134a3ebb658c883408c8780a47fbb2f6
   m_configObjects: {}
