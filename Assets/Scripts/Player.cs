@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 	public class Player : MonoBehaviour {
 
@@ -55,6 +57,10 @@ using UnityEngine;
 
         controller.Move(finalVelocity * Time.deltaTime);
 
+//ir para o corredor
+if(Input.GetKeyDown(KeyCode.Z) ) {
+          SceneManager.LoadScene("corredor");
+        }
 
     }
 
